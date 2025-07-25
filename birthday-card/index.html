@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="music-control"></div>
+  <div class="card-container">
+    <div id="card-flipbook">
+      <!-- Pages will be injected here by JS -->
+    </div>
+    <button id="prev-page" aria-label="Previous Page">&#8592;</button>
+    <button id="next-page" aria-label="Next Page">&#8594;</button>
+  </div>
+  <audio id="bg-music" src="assets/birthday-music.mp3" loop></audio>
+  <audio id="happy-birthday" src="assets/happy-birthday.mp3"></audio>
+  <audio id="flip-sound" src="assets/flip.mp3"></audio>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
