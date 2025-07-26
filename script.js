@@ -5,7 +5,7 @@
 const pages = [
   {
     type: 'cover',
-    content: `<div class="cover-title">Happy Birthday!</div>
+    content: `<div class="cover-title">Happy Birthday Ankit</div>
       <canvas class="confetti"></canvas>
       <div class="cover-subtitle">Wishing you a day filled with joy and love</div>
       <div class="cover-cake-people">
